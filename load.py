@@ -49,7 +49,7 @@ class DatasetWFDB():
         window_range=(150, 150), 
         train_test_ratio=0.8
     ):
-        self.patients = get_patients('all')
+        self.patients = get_patients(210)
         heartbeats = []
         labels = []
         for idx, patient in enumerate(self.patients):
