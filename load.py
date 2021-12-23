@@ -45,7 +45,7 @@ def get_patients(dataset):
 class DatasetWFDB():
     def __init__(
         self, 
-        path='../exp13/physionet.org/files/mitdb/1.0.0', 
+        path='../physionet.org/files/mitdb/1.0.0', 
         window_range=(150, 150), 
         train_test_ratio=0.8
     ):
